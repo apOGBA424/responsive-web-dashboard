@@ -1,0 +1,30 @@
+
+
+/* main body section */
+main{
+    background-color: var(--main-bgcolor);
+    width: 90vw;
+    max-width: 90vw;
+    margin: 5em 1em;
+    box-sizing: border-box;
+
+
+    display: grid;
+    /* grid-template-columns: repeat(12, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    outline: var(--outline-props-1);
+    gap: 8px;
+    overflow-x: hidden;
+}
+
+/* main-children */
+.main-child{
+    width: 200px;
+    max-width: 250px;
+    height: 300px;
+    outline: var(--outline-props-2);
+    margin-bottom: 16px;
+    
+    background-color: var(--white-color);
+}

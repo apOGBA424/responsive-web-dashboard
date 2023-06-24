@@ -1,0 +1,9 @@
+
+
+/* dashboard panel */
+.sidebar-panel{
+    outline: var(--outline-props-1);
+    width: 20%;
+    min-width: 20%;
+    background-color: var(--white-color);
+}

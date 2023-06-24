@@ -1,0 +1,36 @@
+
+
+/* media queries */
+@media screen and  ( max-width : 599px){
+    
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+    nav ul h1{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    nav ul ul{
+        display: flex;
+    }
+    nav ul ul li{
+        margin-left: auto;
+    }
+
+    main{
+        padding: 0;
+        margin: 5em 1em;
+        width: 100vw;
+
+        display: grid;
+        place-items: center;
+        gap: 12px;
+    }
+    
+    main .main-child{
+        width: 100%;
+        margin-left: .7em;
+    }
+
+}

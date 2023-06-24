@@ -1,0 +1,17 @@
+
+
+/* page footer */
+footer{
+    outline: var(--outline-props-1);
+    background-color: var(--footer-bg-color);
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+footer p{
+    outline: var(--outline-props-1);
+    display: inline-block;
+}

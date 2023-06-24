@@ -1,0 +1,39 @@
+@import url("./nav.css");
+@import url("./dashboard-panel.css");
+@import url("./cards-section.css");
+@import url("./footer.css");
+@import url("./mediaQuery.css");
+
+
+
+:root{
+    --main-bgcolor: #f4f4f4; 
+    --footer-bg-color: #bbb; 
+    --outline-color: rgb(111, 111, 242);
+    --ash-color: #e8e8e8;
+    --child-color: #880e47;
+    --white-color: #fff;
+    --outline-props-1: 1px dashed var(--outline-color);
+    --outline-props-2: 1px dashed var(--child-color);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ash-color);
+}
+
+.body-wrapper{
+    display: flex;
+    background-color: aliceblue;
+}
+

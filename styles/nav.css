@@ -1,0 +1,26 @@
+
+/* navbar section */
+nav{
+    padding: 1em 5vw;
+    /* background-color: var(--off-white); */
+    outline: var(--outline-props-1);
+}
+nav ul{
+    display: flex;
+}
+nav ul h1{
+    outline: var(--outline-props-1);
+    margin-right: auto;
+}
+
+
+/* nav-menu links */
+ul ul li{
+    padding-right: 2em;
+    list-style-type: none;
+    outline: var(--outline-props-1);
+
+    display: grid;
+    place-items: center;
+    justify-items: center;
+}
